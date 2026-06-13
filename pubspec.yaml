@@ -1,0 +1,23 @@
+name: taiwan_lottery_picker
+
+description: 台灣樂透號碼產生器
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+  flutter_animate: ^4.5.2
+  google_fonts: ^6.2.1
+
+flutter:
+  uses-material-design: true
